@@ -1,0 +1,33 @@
+.comment {
+    padding-bottom: 71px;
+    &__item {
+        display: flex;
+        margin-top: 70px;
+        hr {
+            background-color: #f6f6f6;
+            border-bottom: none;
+        }
+        img {
+            margin-right: 62px;
+            width: 169px;
+            height: 169px;
+        }
+    }
+    &__title {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__subtitle {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 10px;
+        margin-bottom: 19px;
+    }
+    &__descr {
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
